@@ -1,0 +1,34 @@
+/* *{
+    outline: red solid;
+} */
+
+.main-content{
+    min-height: 100vh;
+}
+
+.need-bg{
+    /* background-image: scr="checkpointone.png"; */
+    background-color: dimgrey;
+    background-size: cover;
+    height: 55vh;
+}
+
+.flex-item{
+    background-color: lightgrey;
+    border: 1px;
+    height: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+    .card-to-move {
+        position: absolute;
+      bottom: -30%;
+    }
+  }
+
+@media only screen and (min-width: 768px)
+  .needs-shrunk {
+      height: 150px;
+      width: 100px;
+  }
+
