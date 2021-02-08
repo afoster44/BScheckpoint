@@ -31,6 +31,7 @@
     .card-to-move {
         position: absolute;
       bottom: -30%;
+      right: 1rem;
     }
   }
 
