@@ -6,11 +6,19 @@
     min-height: 100vh;
 }
 
-.need-bg{
+/* .need-bg{
     /* background-image: scr="checkpointone.png"; */
-    background-color: dimgrey;
+    /* background-color: dimgrey;
     background-size: cover;
     height: 55vh;
+} */ 
+
+.primary {
+    background-color: #287094;
+}
+
+.secondary {
+    background-color: #D4D4CE;
 }
 
 .flex-item{
@@ -32,3 +40,10 @@
       width: 100px;
   }
 
+  h5 {
+    font-family: 'Oswald', sans-serif;
+  }
+
+  p {
+    font-family: 'Raleway', sans-serif;
+  }
